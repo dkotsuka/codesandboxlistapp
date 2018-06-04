@@ -1,2 +1,0 @@
-# codesandboxlistapp
-Created with CodeSandbox

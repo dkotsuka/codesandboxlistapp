@@ -1,0 +1,32 @@
+.itemunit{
+  height: 72px;
+  display: flex;
+  padding: 0 20px;
+  background-color: #ecf0f1;
+  border-bottom: 1px solid #ded8d8;
+}
+.hastobuy{
+  background-color: #ef3e3e;
+}
+.hastobuy * {
+  color: #fff !important;
+}
+.itemunit * {
+  color: #4a4a4a;
+}
+.itemunit span {
+  line-height: 72px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.itemunit sup {
+  line-height: 60px;
+  margin-left: 5px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.itemunit h2 {
+  line-height: 72px;
+  text-align: right;
+  flex-grow: 1
+}

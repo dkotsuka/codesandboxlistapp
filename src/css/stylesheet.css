@@ -2,78 +2,20 @@
   font-family: "Lato", sans-serif;
   padding: 0;
   margin: 0;
+  border: none;
+}
+button:focus {
+  outline: none;
 }
 #app {
   width: 480px;
   height: 100vh;
   margin: 0 auto;
-  background-color: #eee;
+  background-color: #ddd;
+  background-image: url('https://uploads.codesandbox.io/uploads/user/755e8f8b-075d-4c9c-853e-9d3f7169f0ec/rM3l-empty.png');
+  background-repeat: no-repeat;
+  background-position: center 200px;
 }
 .hidden {
-  display: none;
-}
-#topbar {
-  position: fixed;
-  width: 480px;
-}
-#inputbar {
-  background-color: greenyellow;
-  height: 73px;
-  display: flex;
-  border: 1px solid grey;
-}
-#inputbar input {
-  flex-grow: 1;
-  font-size: 24px;
-  color: grey;
-  padding-left: 15px;
-  border: none;
-  border-right: 1px solid grey;
-}
-#inputbar button {
-  width: 80px;
-  border: none;
-  background-color: #3498db;
-  background-image: url("https://uploads.codesandbox.io/uploads/user/755e8f8b-075d-4c9c-853e-9d3f7169f0ec/9kEo-save.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-#inputbar button:active {
-  background-color: #54b8fb;
-}
-
-#minstockbar {
-  display: flex;
-  height: 73px;
-  border: 1px solid grey;
-  background-color: #34495e;
-  border-top: none;
-}
-#minstockbar * {
-  width: 25%;
-  color: #fff;
-}
-#minstockbar span {
-  text-align: center;
-  font-size: 16px;
-  padding: 15px 0;
-}
-#minstockbar h2 {
-  text-align: center;
-  padding: 20px 0;
-}
-#minstockbar button {
-  background-color: rgba(0, 0, 0, 0);
-  background-position: center;
-  background-repeat: no-repeat;
-  border: none;
-}
-#minstockbar button:active {
-  background-color: #54697e;
-}
-#minstockbar .plus {
-  background-image: url("https://uploads.codesandbox.io/uploads/user/755e8f8b-075d-4c9c-853e-9d3f7169f0ec/oZb5-add.png");
-}
-#minstockbar .minus {
-  background-image: url("https://uploads.codesandbox.io/uploads/user/755e8f8b-075d-4c9c-853e-9d3f7169f0ec/jG9d-remove.png");
+  display: none !important;
 }
